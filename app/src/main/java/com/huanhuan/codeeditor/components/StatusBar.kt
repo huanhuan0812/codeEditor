@@ -22,6 +22,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.material3.HorizontalDivider
 import com.huanhuan.codeeditor.models.StatusBarItem
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.Redo
+import androidx.compose.material.icons.automirrored.filled.Undo
 
 // 特殊字符快捷输入数据类
 data class SpecialCharItem(
