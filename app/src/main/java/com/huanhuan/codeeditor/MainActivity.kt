@@ -11,6 +11,7 @@ import com.huanhuan.codeeditor.ui.theme.CodeEditorTheme
 import com.huanhuan.codeeditor.components.*
 import android.view.View
 import androidx.core.view.WindowCompat
+import android.view.WindowManager
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
