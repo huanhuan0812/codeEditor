@@ -207,7 +207,7 @@ fun SpecialCharQuickInputBar(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                imageVector = Icons.Default.Undo,
+                imageVector = Icons.AutoMirrored.Filled.Undo,
                 contentDescription = "撤销",
                 tint = Color.White,
                 modifier = Modifier
@@ -217,7 +217,7 @@ fun SpecialCharQuickInputBar(
             )
 
             Icon(
-                imageVector = Icons.Default.Redo,
+                imageVector = Icons.AutoMirrored.Filled.Redo,
                 contentDescription = "重做",
                 tint = Color.White,
                 modifier = Modifier
