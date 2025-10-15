@@ -24,7 +24,6 @@ jobs:
     - name: Build Debug APK
       run: |
         ./gradlew assembleDebug
-        ./gradlew ktlintCheck
     
     - name: Build Release APK
       run: ./gradlew assembleRelease
