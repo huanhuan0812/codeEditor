@@ -282,7 +282,7 @@ fun StatusBarItemWithDivider(
     ) {
         InteractiveStatusBarItemView(item = item)
         if (showDivider) {
-            Divider(
+            HorizontalDivider(
                 modifier = Modifier
                     .width(1.dp)
                     .height(12.dp),
